@@ -64,7 +64,6 @@ var g5_cookie_domain = "";
         <div class="top_nav_bg"></div>
         <h1 id="hd_h1">인삼골주간보호센터</h1>
         <div id="skip_to_container"><a href="#sh_container">본문 바로가기</a></div>
-        
 <!-- 팝업레이어 시작 { -->
 <div id="hd_pop">
     <h2>팝업레이어 알림</h2>
