@@ -1,5 +1,5 @@
     <!-- 콘텐츠 시작 { -->
-      <div id="sh_container">
+    <div id="sh_container">
         <div id="sh_container_wrapper">
             
 <!-- 메인 비주얼모션 -->

@@ -1,0 +1,44 @@
+@charset "utf-8";
+
+/* 로고 */
+#top_logo{position:absolute;top:4px;left:0}
+#top_logo_s{position:absolute;top:47px;left:20px}
+#logo_fixed {display:none;position:fixed;top:23px;left:86px;z-index:50;font-size:15px;color:#222;letter-spacing:1px;-webkit-animation:slide .4s;-ms-animation:slide .4s;animation:slide .4sx;font-family:'notokr-bold'}
+
+/* 메뉴 fixed */
+#top_nav_wrap.fixed {position:fixed;top:0;left:0;width:100%;min-width:1072px;height:70px !important;border-bottom:1px solid #e3e3e3;background:#fff;-webkit-animation:updown .4s;-ms-animation:updown .4s;animation:updown .4s;box-shadow:2px 2px 1px 1px rgba(0, 0, 0, 0.03)}
+@-webkit-keyframes updown {from{top:-40px}to{top:0}}
+@-ms-keyframes updown {from{top:-40px}to{top:0}}
+@keyframes updown {from{top:-40px}to{top:0}}
+#top_nav_wrap.fixed #top_logo{display:none}
+#top_nav_wrap.fixed #top_logo_s{display:none}
+#top_nav_wrap.fixed #logo_fixed{display:block}
+@-webkit-keyframes slide {from{left:-100px}to{left:30px}}
+@-ms-keyframes slide {from{left:-100px}to{left:30px}}
+@keyframes slide {from{left:-100px}to{left:86px}}
+#top_nav_wrap.fixed #top_nav{right:269px;top:12px !important}
+#top_nav_wrap.fixed .tel_wrap{right:83px;top:15px}
+#top_nav_wrap.fixed #top_nav li.list a{color:#222 !important;font-size:15px}
+#top_nav_wrap.fixed #top_nav li.list ul li a{color:#888 !important;font-size:14px}
+
+/* nav_depth  */
+#top_nav {display:block;position:absolute;right:227px;top:24px}
+#top_nav li.list {float:left;display:inline-block;position:relative;z-index:999;color:#999;font-size:15px;height:50px;text-align:center;margin:0 15px;font-family:'notokr-medium'}
+#top_nav li.list05{margin:0 20px 0 20px}
+#top_nav li a {display:block;color:#676767;zoom:1;padding:10px 0;overflow:visible;letter-spacing:-0.02em;font-family:'notokr-medium'}
+#top_nav li ul {position:absolute;display:none;clear:both;text-align:left;top:43px;min-width:145px;margin:0 0 0 -20px;border:1px solid #ddd;background:#fff}
+#top_nav li ul a {position:relative;padding:15px 20px;*margin-bottom:-1px;border-bottom:solid 1px #ddd;color:#666;font-size:14px;font-weight:normal;letter-spacing:-0.5px;transition:all .1s}
+#top_nav li ul a:hover, #nav li a.hov {color:#65af7d} 
+
+/* LNB */
+#top_nav_wrap {position:relative;width:1200px;height:90px;margin:0 auto}
+#top_nav_wrap .tel_wrap{position:absolute;right:20px;top:29px;font-weight:500;font-size:17px;color:#333;letter-spacing:.5px;font-family: 'Poppins', sans-serif;}
+#top_nav_wrap .tel_wrap i{font-weight:normal;font-size:15px;line-height:36px;color:#fff}
+#top_nav_wrap .tel_wrap span{display:inline-block;width:35px;height:35px;margin-right:15px;border-radius:100%;text-align:center;line-height:32px;background:#65af7d}
+
+/* 익스 8 rgba 대체 */
+@media \0screen {
+#allmn_view_wrap {background-color:#333}
+}
+
+

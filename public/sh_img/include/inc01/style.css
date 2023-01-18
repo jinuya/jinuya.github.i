@@ -1,0 +1,25 @@
+@charset "utf-8";
+
+#inc01{position:relative;width:100%;padding:100px 0;background:#f7f7f7}
+#inc01 .inc_tit_area{padding:0 0 20px;text-align:center;}
+#inc01 .inc_tit_area .s_tit{font-weight:800;font-size:14px;color:#65af7d;font-family: 'Poppins', sans-serif;}
+#inc01 .inc_tit_area .tit{font-size:30px;color:#333;letter-spacing:-.5px;font-family:'notokr-light'}
+#inc01 .inc_tit_area .tit span{font-family:'notokr-bold'}
+
+#inc01 .clinic_list{overflow:hidden;width:1200px;margin:0 auto}
+#inc01 .clinic_list > div{float:left;width:285px;margin-right:20px;text-align:center}
+#inc01 .clinic_list > div:last-child{margin:0}
+
+#inc01 .clinic_list .img_box{position:relative;width:100%}
+#inc01 .clinic_list .img_box .more_view{position:absolute;top:162px;width:100%;margin-top:10px;color:#fff;text-align:center;transition:all .3s;opacity:0}
+#inc01 .clinic_list .img_box .more_view p{font-weight:500;font-family: 'Poppins', sans-serif;}
+#inc01 .clinic_list .long .img_box .more_view{top:182px}
+#inc01 .clinic_list .img_box:before{position:absolute;top:0;left:0;content:'';width:100%;height:100%;background:rgba(101,175,125,.8);transition:all .3s; opacity:0}
+#inc01 .clinic_list .long .img_box{height:408px;}
+#inc01 .clinic_list .short .img_box{height:362px}
+
+#inc01 .clinic_list .list_tit{margin-top:15px;font-size:18px;color:#333;font-family:'notokr-medium'}
+#inc01 .clinic_list .list_txt{font-size:14px;color:#666;font-family:'notokr-regular'}
+
+#inc01 .clinic_list > div:hover .img_box .more_view{margin-top:0;opacity:1}
+#inc01 .clinic_list > div:hover .img_box:before{opacity:1}

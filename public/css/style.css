@@ -1,0 +1,61 @@
+@charset "utf-8";
+/* SIR 지운아빠 */
+
+/* 새글 스킨 (latest) */
+#sh_latest ul{width:1200px;margin:0 auto}
+#sh_latest li{position:relative;float:left;width:calc(100% / 3);height:247px;box-sizing:border-box}
+
+#sh_latest li a {display:block;width:97%;height:220px;padding:28px 27px;border:1px solid #ddd;color:#adadad;box-sizing:border-box;-webkit-transition:border .2s;transition:border .2s}
+#sh_latest li a:hover{border-color:#a4cc95}
+
+#sh_latest .icon{position:absolute;top:0;left:0}
+
+#sh_latest .lt_tit{font-size:12px;font-weight:600;color:#222;letter-spacing:0.3px}
+#sh_latest .sh_notice{padding:8px 0 12px;font-size:17px;color:#333;font-family:'notokr-medium'}
+#sh_latest .sh_content{overflow: hidden;height:89px;padding-bottom:18px;font-size:15px;line-height:25px;color:#666;font-family:'notokr-regular'}
+#sh_latest .sh_date{font-size:14px;color:#222;font-family:'notokr-medium'}
+#sh_latest .sh_date span{position:relative;display:inline-block;margin-left:5px;padding-left:9px}
+#sh_latest .sh_date span:before{position:absolute;left:0;top:5px;content:'';width:1px;height:10px;background:#d9d9d9}
+#sh_latest .sh_nodata {width:100%;font-size:1em;text-align:center;color:#888888;margin-top:35px}
+
+/* 서브 상단 BG */
+#sub_bg{position:relative;width:100%;min-width:1400px;height:300px;color:#fff;text-align:center;background:url(../sh_img/hd/sub_main_banner/sub_bg.jpg) top center no-repeat}
+#sub_bg:after{display:block;content:"";position:absolute;top:50%;left:50%;transform:translateX(-50%);width:400px;height:180px;margin-top:-90px;border-radius:60px 0;}
+#sub_bg .tit_area{position:relative;top:52%;z-index:1;-webkit-transform:translateY(-50%);-ms-transform:translateY(-50%);transform:translateY(-50%) }
+#sub_bg .tit_area span{display:block;font-size:12px;font-weight:500;letter-spacing:1px;opacity:0;font-family: 'Poppins', sans-serif;}
+#sub_bg .tit_area h2{padding-top:13px;margin-top:-20px;font-size:40px;line-height:40px;font-weight:normal;letter-spacing:-.5px;opacity:0;font-family:'notokr-bold'}
+
+#sh_snb{overflow:hidden;display:table;margin:0 auto}
+#sh_snb li{float:left}
+#sh_snb li a{display:block;position:relative;height:60px;font-size:14.5px;padding:0 35px;line-height:60px;letter-spacing:-.2px;-webkit-transition:all .3s;transition:all .3s}
+#sh_snb li a:after{display:block;content:"";position:absolute;bottom:0;left:50%;-webkit-transform:translateX(-50%);-ms-transform:translateX(-50%);transform:translateX(-50%);width:0;height:1px;background-color:#aaa;-webkit-transition:all .3s;transition:all .3s}
+#sh_snb li a:hover:after{width:100%}
+#sh_snb li.snb_on a:after{width:100%;background-color:#52bab9}
+
+#inc02{position:relative;width:100%;height:493px;background:url(/sh_img/include/inc02/bg.png) #3d4045 left no-repeat}
+#inc02 .inc02_cont{width:1200px;height:500px;margin:0 auto}
+#inc02 .inc02_tit_area{padding-top:103px}
+
+#inc02 .inc02_tit_area .inc02_stit{font-weight:800;font-size:15px;color:#65af7d;font-family: 'Poppins', sans-serif;}
+#inc02 .inc02_tit_area .inc02_tit{font-size:30px;color:#fff;font-family:'notokr-thin'}
+#inc02 .inc02_tit_area .inc02_tit span{font-family:'notokr-bold'}
+#inc02 .inc02_tit_area .inc02_txt{font-size:14px;line-height:24px;color:rgba(255,255,255,.6);font-family:'notokr-regular'}
+
+#inc02 .inc02_cont .gallery-thumbs{width:444px;height:196px;margin:18px 0 0 0}
+#inc02 .inc02_cont .gallery-thumbs .row{overflow:hidden;width:444px}
+#inc02 .inc02_cont .gallery-thumbs .row .thumb-item{position:relative;float:left;width:139px !important;height:85px;margin:13px 13px 0 0;cursor:pointer; ;-webkit-filter: grayscale(100%);
+filter: gray;}
+#inc02 .inc02_cont .gallery-thumbs .row .thumb-item:hover{-webkit-filter: grayscale(0%);filter: none;}
+#inc02 .inc02_cont .gallery-thumbs .row .thumb-item:nth-child(3n){margin-right:0}
+#inc02 .inc02_cont .gallery-thumbs .row .swiper-slide-thumb-active{-webkit-filter: grayscale(0%);filter: none;}
+#inc02 .inc02_cont .gallery-thumbs .row .swiper-slide-thumb-active:before{position:absolute;top:0;left:0;width:100%;height:100%;content:'';border:3px solid #65af7d}
+#inc02 .swiper-slide{width:627px;height:493px;}
+
+#inc02 .gallery-top-wrapper{position:absolute;top:0;right:0;width:1028px}
+
+@media screen and (max-width:1750px) {
+#inc02 .gallery-top-wrapper{width:900px}
+}
+@media screen and (max-width:1500px) {
+#inc02 .gallery-top-wrapper{width:800px}
+}

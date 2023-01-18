@@ -1,0 +1,8 @@
+@charset "utf-8";
+
+#atc03{position:relative;width:1200px;height:574px;margin:0 auto}
+#atc03 .tit_area{padding:105px 0 57px}
+#atc03 .atc03_tit{padding:5px 0 5px 37px;border-left:3px solid #65af7d;font-family:'Poppins',sans-serif;}
+#atc03 .atc03_tit .num{font-weight:700;font-size:17px;color:#65af7d}
+#atc03 .atc03_tit h2{font-weight:normal;font-size:30px;color:#454545;font-family:'notokr-thin';}
+#atc03 .atc03_tit h2 span{font-family:'notokr-bold'}

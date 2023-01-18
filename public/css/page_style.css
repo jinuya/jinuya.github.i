@@ -1,0 +1,164 @@
+@charset "utf-8";
+ul{margin:0;padding:0}
+li{list-style:none}
+img{border:0}
+a{text-decoration:none}
+
+@font-face{font-family:ngb;src:url(http://www.hdweb.co.kr/NanumGothicBold.eot)} 
+#comingsoon{width:100%;padding-top:100px;text-align:center}
+
+
+/* 공통 */
+#PageCommon{position:relative;width:100%;margin:50px 0;font-size:15px;line-height:25px;color:#666;letter-spacing:-0.2px}
+#PageCommon *{box-sizing:border-box}
+#PageCommon .c_blue{color:#3378c1}
+#PageCommon .c_green{color:#40c1c2}
+#PageCommon .top_area{margin-bottom:25px;text-align:center}
+#PageCommon .top_area p{width:50%;margin:0 auto 15px;background:url(/sh_page/img/top_area_line.png) center repeat-x}
+#PageCommon .top_area p span{display:inline-block;padding:0 10px;font-size:12px;font-weight:bold;text-transform:uppercase;letter-spacing:2px;color:#b1b1b1;background-color:#fff}
+#PageCommon .top_area h3{font-size:22px;font-weight:bold;line-height:1.5;color:#222}
+#PageCommon .box_area h4{padding-left:12px;margin-bottom:10px;font-size:17px;font-weight:bold;color:#222;background:url(/sh_page/img/h5_arr.png) left center no-repeat}
+
+#common_page .top_wrap{padding:128px 50px 0 50px}
+#common_page .top_wrap .top_box{width:584px;height:175px;padding:41px 88px 0 45px;border-radius:0 30px 0 0;background:url('/sh_page/img/top_box_bg.png') no-repeat right bottom #65af7d}
+#common_page .point_tit{font-size:13px;font-weight:500;letter-spacing:1px;color:rgba(255,255,255,.6);font-family:'Montserrat', sans-serif}
+#common_page .page_tit{margin-top:36px;font-size:28px;text-align:right;color:#fff;font-family:'notokr-bold'}
+#common_page .cont_wrap{overflow:hidden;width:1008px;margin:60px auto 0;}
+#common_page .cont_wrap .l_box{float:left;position:relative;width:30%;}
+#common_page .cont_wrap .l_box span{padding:0 11px;font-size:20px;font-style:italic;color:#333;font-family:'notokr-regular'}
+#common_page .cont_wrap .l_box span b{font-family:'notokr-bold'}
+#common_page .cont_wrap .l_box:before{position:absolute;z-index: -1;left:0;top:17px;content:'';width:215px;height:17px;background:#e3f3e9}
+#common_page .cont_wrap .r_box{float:left;width:70%;padding-bottom:39px;border-bottom:1px solid #ddd}
+#common_page .cont_wrap .r_box_last{border-bottom:none}
+
+#common_page .li_list li{position:relative;padding-left:19px;font-size:15px;line-height:25px;color:#666;font-family:'notokr-regular'}
+#common_page .li_list li:before{position:absolute;left:0;top:11px;content:'';width:4px;height:4px;border-radius:100px;background:#65af7d}
+
+/* 인사말 */
+
+.page6 .top_box{text-align:center}
+.page6 .top_box .top_txt{font-size:13px;font-weight:600;letter-spacing:1px;color:#65af7d;font-family:'Montserrat', sans-serif}
+.page6 .top_box .top_txt02{margin-top:10px;font-size:28px;color:#222;font-family:'notokr-light'}
+.page6 .top_box .top_txt02 span{font-family:'notokr-bold'}
+.page6 .g_box{margin-top:40px;padding:193px 50px 0 50px;text-align:center;background:url('../img/page6_bg.png') no-repeat top center}
+.page6 .g_box .txt_box{padding-top:57px;border-radius:30px 30px 0 0;}
+.page6 .g_box .g_tit{position:relative;font-size:20px;font-family:'notokr-regular'}
+.page6 .g_box .g_tit span{position:relative;display:inline-block}
+.page6 .g_box .g_tit span:before{display:block;position:absolute;z-index:-1;left:-24px;top:14px;content:'';width:502px;height:21px;background:#e3f3e9}
+.page6 .g_box .g_txt{margin-top:41px;font-size:15px;line-height:25px;color:#666;font-family:'notokr-regular'}
+.page6 .g_box .g_txt b{font-weight:normal;color:#333;font-family:'notokr-medium'}
+.page6 .g_box .g_list{margin-top:63px;overflow:hidden;text-align:center}
+.page6 .g_box .g_list li{ display:inline-block;width:217px;border-right:1px dotted #ddd;font-size:16px;line-height:25px;color:#666;font-family:'notokr-medium'}
+.page6 .g_box .g_list li:last-child{border-right:none}
+.page6 .g_box .g_list li img{display:block;margin: 0 auto 17px auto}
+
+/* 요양서비스 */
+.page10 .page_tit{margin-top:13px !important}
+.page10 .top_wrap{padding:128px 50px 0 50px;background:url('/img/page10_top.jpg') no-repeat;background-size:cover}
+.page10 .cont_wrap{padding:0 50px}
+.page10 .s_list{overflow:hidden}
+.page10 .s_list li{position:relative;float:left;width:289px;height:320px;border-right:1px dashed #ddd;border-bottom:1px dashed #ddd}
+.page10 .s_list li:nth-child(3n){border-right:none}
+.page10 .s_list li.b_li{border-bottom:none}
+.page10 .s_list li .s_num{position:absolute;left:35px;top:31px;font-size:13px;font-weight:700;color:#65af7d;font-family:'Montserrat', sans-serif}
+.page10 .s_list li img{display:block;margin:60px auto 20px auto}
+.page10 .s_list li .s_txt{font-size:15px;line-height:25px;text-align:center;color:#666;font-family:'notokr-regular'}
+.page10 .s_list li .s_txt span{display:block;margin-bottom:5px;color:#333;font-family:'notokr-bold'}
+
+.page10 .bt_txt{margin-top:69px;font-size:22px;line-height:32px;text-align:center;color:#666;font-family:'notokr-medium'}
+.page10 .bt_txt span{color:#64bf81}
+
+/* 이용방법 */
+.page36 .top_wrap{padding:128px 50px 0 50px;background:url('../img/page36_top.jpg') no-repeat;background-size:cover}
+.page36 .cont_box .pro_tit{display:block;width:214px;height:54px;margin:0 auto;padding-top:9px;font-size:18px;text-align:center;color:#fff;background:url('../img/page40_tit.png');font-family:'notokr-medium'}
+.page36 .cont_box .pro_list{overflow:hidden;width:100%;margin:66px auto 0 auto}
+.page36 .cont_box .pro_list li{float:left;height:191px;text-align:center}
+.page36 .cont_box .pro_list li:nth-child(odd){position:relative;width:163px}
+.page36 .cont_box .pro_list li:nth-child(odd):before{position:absolute;left:0;top:16px;content:'';width:175px;height:175px;border-radius:100px;z-index:-1;background:#f5f5f5}
+.page36 .cont_box .pro_list li:nth-child(even){width:45px;padding-top:11px}
+.page36 .cont_box .pro_list li .pro_step{font-size:16px;line-height:19px;color:#666;font-family:'notokr-medium'}
+.page36 .cont_box .pro_list li .pro_step b{font-size:14px;font-weight:700;color:#444;font-family:'Montserrat', sans-serif}
+.page36 .cont_box .pro_list li .pro_step b span{color:#65af7d}
+.page36 .cont_box .pro_list li .pro_txt{margin-top:26px;font-size:15px;line-height:25px;color:#666;font-family:'notokr-medium'}
+
+/* 비용안내 */
+.page37 .top_wrap{padding:128px 50px 0 50px;background:url('../img/page37_top.jpg') no-repeat;background-size:cover}
+.page37 .cont_wrap .l_box.l_box02{float:none !important;width:inherit !important}
+.page37 .cont_wrap .r_box.r_box02{float:none !important;width:inherit !important;border-bottom:1px dashed #ddd !important}
+.page37 .cont_wrap .l_box02:before{width:269px !important}
+.page37 .cont_wrap table{width:100%;margin-top:30px;border-top:3px solid #65af7d;border-spacing:0;font-size:15px;line-height:25px;color:#666;text-align:center;font-family:'notokr-regular'}
+.page37 .cont_wrap table th{padding:5px 0;border-bottom:1px solid #ddd;border-right:1px solid #ddd;color:#444;background:#f5f5f5}
+.page37 .cont_wrap table th:last-child{border-right:none}
+.page37 .cont_wrap table td{padding:5px 0;border-bottom:1px solid #ddd;border-right:1px solid #ddd;word-break:keep-all}
+.page37 .cont_wrap table td:first-child{text-align:center}
+.page37 .cont_wrap table td:last-child{border-right:none}
+.page37 .cont_wrap .table_txt{margin-top:10px;font-size:14px;line-height:24px;text-align:right;color:#888;font-family:'notokr-regular'}
+.page37 .cont_wrap .tbl_bt_txt{margin-top:30px;font-size:15px;line-height:26px;color:#666;font-family:'notokr-regular'}
+
+
+/* 노인장기요양보험 */
+.page40 .top_wrap{padding:128px 50px 0 50px;background:url('/sh_page/img/page40_top.jpg') no-repeat;background-size:cover}
+.page40 .cont_wrap .r_box .what_list li{padding-bottom:39px;border-bottom:1px dashed #ddd;font-size:15px;line-height:25px;color:#666;font-family:'notokr-regular'}
+.page40 .cont_wrap .r_box .what_list li:last-child{padding:39px 0 0 0;border-bottom:none}
+.page40 .cont_wrap .r_box .what_list li p{margin-top:13px;text-align:right;color:#65af7d}
+.page40 .cont_wrap .r_box .li_list li{position:relative;margin-bottom:18px;padding-left:19px;font-size:15px;line-height:25px;color:#666;font-family:'notokr-regular'}
+.page40 .cont_wrap .r_box .li_list li span{display:inline-block;float:left;width:80px;color:#444;font-family:'notokr-medium'}
+.page40 .cont_wrap .r_box .li_list li em{display:inline-block;width:80px}
+.page40 .cont_wrap .r_box .li_list li:before{position:absolute;left:0;top:11px;content:'';width:4px;height:4px;border-radius:100px;background:#65af7d}
+.page40 .cont_wrap .r_box .li_list li:last-child{margin-bottom:0}
+.page40 .cont_wrap .grade_box{overflow:hidden;margin-bottom:15px}
+.page40 .cont_wrap .grade_box_last{margin-bottom:0}
+.page40 .cont_wrap .grade_box .grade_img{float:left}
+.page40 .cont_wrap .grade_box .grade_txt{float:left;padding-left:25px;font-size:15px;color:#666;font-family:'notokr-regular'}
+.page40 .cont_wrap .grade_box .grade_txt span{display:inline-block;padding:0 5px;color:#fff;background:#65af7d}
+.page40 .cont_wrap .grade_box .grade_txt b{display:inline-block;margin:0 15px 10px 0;font-weight:normal;color:#444;font-family:'notokr-bold'}
+.page40 .cont_wrap .table_tit{position:relative;margin-bottom:18px;padding-left:19px;font-size:17px;line-height:25px;color:#444;font-family:'notokr-medium'}
+.page40 .cont_wrap .table_tit:before{position:absolute;left:0;top:11px;content:'';width:4px;height:4px;border-radius:100px;background:#65af7d}
+.page40 .cont_wrap .table_tit02{margin-top:30px}
+.page40 .cont_wrap table{width:100%;border-top:3px solid #65af7d;border-spacing:0;font-size:15px;line-height:25px;color:#666;font-family:'notokr-regular'}
+.page40 .cont_wrap table th{padding:5px 20px;border-bottom:1px solid #ddd;border-right:1px solid #ddd;color:#444;background:#f5f5f5}
+.page40 .cont_wrap table th:last-child{border-right:none}
+.page40 .cont_wrap table td{padding:5px 20px;border-bottom:1px solid #ddd;border-right:1px solid #ddd;word-break:keep-all}
+.page40 .cont_wrap table td:first-child{text-align:center}
+.page40 .cont_wrap table td:last-child{border-right:none}
+.page40 .cont_box .pro_tit{display:block;width:214px;height:54px;margin:0 auto;padding-top:9px;font-size:18px;text-align:center;color:#fff;background:url('/sh_page/img/page40_tit.png');font-family:'notokr-medium'}
+.page40 .cont_box .pro_list{overflow:hidden;width:835px;margin:66px auto 0 auto}
+.page40 .cont_box .pro_list li{float:left;height:191px;text-align:center}
+.page40 .cont_box .pro_list li:nth-child(odd){position:relative;width:175px}
+.page40 .cont_box .pro_list li:nth-child(odd):before{position:absolute;left:0;top:16px;content:'';width:175px;height:175px;border-radius:100px;z-index:-1;background:#f5f5f5}
+.page40 .cont_box .pro_list li:nth-child(even){width:45px;padding-top:11px}
+.page40 .cont_box .pro_list li .pro_step{font-size:13px;line-height:19px;color:#65af7d;font-family:'notokr-regular'}
+.page40 .cont_box .pro_list li .pro_step b{font-size:14px;font-weight:700;color:#444;font-family:'Montserrat', sans-serif}
+.page40 .cont_box .pro_list li .pro_step b span{color:#65af7d}
+.page40 .cont_box .pro_list li .pro_txt{margin-top:41px;font-size:15px;line-height:25px;color:#666;font-family:'notokr-medium'}
+.page40 .cont_box .pro_list li:nth-child(5) .pro_txt{margin-top:29px}
+
+.page42 .top_wrap{padding:128px 50px 0 50px;background:url('../img/page42_top.jpg') no-repeat;background-size:cover}
+.page42 table{width:100%;border-top:3px solid #65af7d;border-spacing:0;font-size:15px;line-height:25px;color:#666;text-align:center;font-family:'notokr-regular'}
+.page42 th{padding:5px 0;border-bottom:1px solid #ddd;border-right:1px solid #ddd;color:#444;background:#f5f5f5}
+.page42 th:last-child{border-right:none}
+.page42 td{padding:5px 0;border-bottom:1px solid #ddd;border-right:1px solid #ddd;word-break:keep-all}
+.page42 td:first-child{text-align:center}
+.page42 td:last-child{border-right:none}
+
+.page45 .top_wrap{padding:128px 50px 0 50px;background:url('../img/page45_top.jpg') no-repeat;background-size:cover}
+.page45 .p45_tit{margin-top:50px;padding-bottom:20px;font-size:24px;line-height:36px;text-align:center;color:#333;font-family:'notokr-light'}
+.page45 .p45_tit span{font-family:'notokr-bold'}
+.page45 .p45_tit font{color:#65af7d}
+.page45 .p45_txt{padding-bottom:50px;font-size:15px;line-height:26px;text-align:center;color:#666;font-family:'notokr-regular'}
+.page45 .p45_img{text-align:center}
+
+.page46 .top_wrap{padding:128px 50px 0 50px;background:url('../img/page46_top.jpg') no-repeat;background-size:cover}
+.page46 .bank_ac{width:800px;margin:50px auto 0;padding:80px 0;border:1px solid #ddd;border-radius:50px 0 50px;font-size:28px;color:#333;text-align:center;font-family:'notokr-light'}
+.page46 .bank_ac span{display:block;margin-top:10px;font-size:17px;color:#65af7d;font-family:'notokr-bold'}
+.page46 .p46_cont_txt{margin:80px auto 50px;font-size:18px;color:#333;text-align:center;font-family:'notokr-medium'}
+.page46 .p46_cont_txt span{color:#65af7d}
+.page46 .down_btn{display:block;width:200px;height:50px;margin-top:20px;border-radius:5px;font-size:14px;line-height:50px;text-align:center;color:#fff;background:#65af7d;font-family:'notokr-medium'}
+.page46 .p46_cont{overflow:hidden;border-right:1px solid #ddd}
+.page46 .p46_cont > div{float:left;width:33.3333%;height:300px;border:1px solid #ddd;border-right:0;text-align:center}
+.page46 .p46_cont > div .num{display:block;margin:50px 0 30px;font-size:15px;font-weight: 700;color: #65af7d;font-family: 'Montserrat', sans-serif;}
+.page46 .p46_cont > div .cont_tit{margin-bottom:10px;font-size:18px;color:#333;font-family:'notokr-bold'}
+.page46 .p46_cont > div .cont_txt{font-size:15px;line-height:26px;color:#666;font-family:'notokr-regular'}
+
+.p46_tbl_tit{margin:60px 0 20px;font-size:22px;color:#333;font-family:'notokr-bold'}
+
